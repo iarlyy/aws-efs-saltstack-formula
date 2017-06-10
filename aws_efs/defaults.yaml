@@ -1,0 +1,2 @@
+aws_efs:
+  nfs_pkg_name: 'nfs-utils'

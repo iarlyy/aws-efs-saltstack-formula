@@ -1,0 +1,8 @@
+{% import_yaml 'aws_efs/defaults.yaml' as aws_efs_default_settings %}
+
+{% set aws_efs = salt['pillar.get'](
+        'aws_efs',
+        default=aws_efs_default_settings.aws_efs,
+        merge=True
+    )
+%}

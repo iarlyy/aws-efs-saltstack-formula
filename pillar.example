@@ -1,0 +1,4 @@
+aws_efs:
+  nfs_pkg_name: 'nfs-utils'
+  - myefs:
+    name: 'fs-id.efs.zone.amazonaws.com'
